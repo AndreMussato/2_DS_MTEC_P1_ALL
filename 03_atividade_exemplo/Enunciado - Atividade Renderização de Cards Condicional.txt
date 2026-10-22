@@ -1,0 +1,51 @@
+Atividade Renderização de Cards Condicional
+
+
+Animal -
+Anime -                 	Ana e Fernanda
+Cantor -                	Geovanna e Danieli
+Carro -                 	Anderson e Eduardo Alonso
+Celular -               	Emanuel e Erick Gabriel
+Filme -                 	Davi e Davi
+Games -                 	Guilherme e Guilherme
+Instrumento Musical -         	Claudio e Felipe
+País -                        	Guilherme Bassi
+Jogador de futebol -          	Guilherme Roque e Eduardo Henrique
+Moto -                        	Diego e Alerrandro
+Jogos Esportivos -		Mateus Gomes e Melissa
+Cidade - 			Vitor e Silvio
+Curso técnico - 		Lorraine e Mateus
+Eletrodoméstico - 
+Empresa Tecnologica - 
+Enfermeiro - 
+Lanche - 
+Livro - 			Paulo e Vinicius
+Médico - 
+Pizza
+Produto -			Nicolas e José
+Professor
+Restaurante
+Roupa - 			Sofia e Ramona
+Série - 			Leticia e Stefany
+Super-herói - 			Gustavo e Murilo
+Vilão - 			Miqueias e Kaua
+Mangá - 			
+
+
+
+
+Requisitos
+1 - Criar um h1 com o nome da dupla
+2 - Criar um array (criado dentro da App.jsx) com no mínimo 5 objetos.
+3 - Cada objeto deve ter:
+      Pelo menos 5 atributos mais um chamado "status" onde deve possuir um valor (true ou false)
+4 - Exibir todos usando map().
+5 - Criar um componente Card.
+6 - Enviar os dados por props.
+7 - Fazer renderização condicional:
+      Se status = true → "Disponível"
+      Se status = false → "Indisponível"
+8 - Criar um useState para alterar o título da página.
+
+
+Entrega: arquivo .rar ou .zip anexado aqui.
