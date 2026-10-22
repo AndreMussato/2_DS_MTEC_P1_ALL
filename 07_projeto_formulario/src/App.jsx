@@ -63,6 +63,14 @@ function App() {
         <button type="submit">Enviar</button>
       </p>      
     </form>
+
+    {/* Mostra os dados digitados no formulário após o envio
+    (valores do objeto usuario) */}
+    <div>
+      <p><label>Usuário: {usuario.nome}</label></p>
+      <p><label>E-mail: {usuario.email}</label></p>
+      <p><label>Idade: {usuario.idade}</label></p>
+    </div>
     </>
   )
 }
